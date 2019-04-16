@@ -1,0 +1,13 @@
+{% load thumbnail %}
+{% if partners %}
+
+<div id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-loop="false" data-nav="false" data-autoplay="5000" data-pagi="false" data-items="{{ partners|length}}">
+    {% for partner in partners %}
+        {% thumbnail partner.image '200x200' crop="center" as img %}
+    <div class="oc-item"><a href="#"><img src="{{ partner.image.url }}" width="{{ img.width }}" height="{{ img.height }}" alt="{{ partner.name  }}"></a></div>
+    {% endfor %}
+</div>
+{% else %}
+    There are no published Partners
+{% endif %}
+

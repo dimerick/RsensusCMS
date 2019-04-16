@@ -1,0 +1,80 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+#primary-menu ul > li > a{
+    font-size: 1em!important;
+}
+
+#header.transparent-header.full-header #logo {
+    /*background-color: white;*/
+}
+/*header.full-header #logo{*/
+    /*margin-left: -30px;*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+    /*header.full-header #logo{*/
+        /*margin-left: -30px;*/
+        /*background-color: white;*/
+        /*width: 25%;*/
+        /*!*padding: 20px 0px;*!*/
+    /*}*/
+/*}*/
+#logo img{
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
+#header.transparent-header.full-header #header-wrap {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0)!important;
+}
+#header-wrap{
+    /*background-color: #031131;*/
+}
+#header.transparent-header.full-header #primary-menu > ul {
+    border-right-color: rgba(0,0,0,0.0);
+}
+footer i{
+    margin-right: 5px!important;
+}
+.space{
+    height: 200px;
+}
+@media (min-width: 768px) {
+.oc-item img{
+  width: 50%!important;
+  margin: 0 auto;
+}
+}
+footer div.info{
+  background: url('../images/world-map.png') no-repeat center center!important;
+  background-size: 100%!important;
+}
+#content .call-to-action{
+padding: 150px 0; background-color: rgb(23, 49, 113);
+}
+#content div.programs{
+  margin: 0px 0!important;
+}
+
+#content #trans-image{
+  padding: 150px 0!important;
+  background-image: url('/media/filer_public/81/fc/81fc59a3-a1be-4544-b246-a10281938d72/transition2.jpg')!important;
+}
+.space{
+  height: 50px;
+}
+.revo-slider-desc-text{
+  font-size: 1.5em!important;
+  background-color: #00000063;
+  padding: 10px;
+}
+.div-icon-act {
+    background-color: #fff201;
+    border-radius: 50%;
+}
+.content-info-marker ul li{
+  list-style: none!important;
+}
