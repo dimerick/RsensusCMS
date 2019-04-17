@@ -8,8 +8,10 @@ from django.contrib.gis.db import models as models_gis
 class Partner(models.Model):
   name = models.CharField(max_length=100, unique=True)
   position = models.PositiveIntegerField()
-  is_active = models.BooleanField(default=True)
   image = FilerImageField(help_text='Please supply an image of this partner')
+  url = models.CharField('Url', max_length=255, blank=True, null=True, default='#', help_text='Link partner website')
+  is_active = models.BooleanField(default=True)
+  
 
 
   def __str__(self):

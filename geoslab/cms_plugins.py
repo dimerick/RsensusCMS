@@ -12,7 +12,7 @@ class PartnersPlugin(CMSPluginBase):
     cache = False
 
     def render(self, context, instance, placeholder):
-        context['partners'] = Partner.objects.order_by('position')
+        context['partners'] = Partner.objects.filter(is_active=True).order_by('position')
         return context
 
 @plugin_pool.register_plugin
