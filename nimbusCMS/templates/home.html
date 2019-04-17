@@ -26,7 +26,7 @@
                         <ul>   <!-- SLIDE  -->
                             <li class="dark" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/slider/rev/main/s1-thumb.jpg"  data-saveperformance="off"  data-title="Welcome to Canvas">
                                 <!-- MAIN IMAGE -->
-                                <img src="{% static "images/videos/earth-image.jpg" %}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                <img src="{% static "images/videos/earth-image.jpg" %}"  data-lazyload="{% static "images/videos/earth-image.jpg" %}" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
 
                                 <!-- LAYER NR. 1 -->
@@ -36,12 +36,12 @@
                                      data-videowidth="100%"
                                      data-videoheight="100%"
                                      data-videomp4="{% placeholder "video_intro" %} "
-                                     data-videopreload="preload"
+                                     data-videopreload="metadata"
                                      data-videoloop="none"
                                      data-forceCover="1"
                                      data-aspectratio="16:9"
                                      data-autoplay="true"
-                                     data-autoplayonlyfirsttime="false"
+                                     data-autoplayonlyfirsttime="true"
                                      data-nextslideatend="false"
                                      data-videocontrols="controls"
                                 >

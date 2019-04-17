@@ -78,3 +78,28 @@ padding: 150px 0; background-color: rgb(23, 49, 113);
 .content-info-marker ul li{
   list-style: none!important;
 }
+#header-wrap{
+    background-color: white!important;
+}
+.dark #header-wrap:not(.not-dark) #primary-menu > ul > li:hover > a, .dark #header-wrap:not(.not-dark) #primary-menu > ul > li.current > a, .dark #header-wrap:not(.not-dark) #primary-menu > .container > ul > li:hover > a, .dark #header-wrap:not(.not-dark) #primary-menu > .container > ul > li.current > a {
+    color: #1ABC9C!important;
+}
+
+.dark #header-wrap:not(.not-dark) #primary-menu > ul > li > a, .dark #header-wrap:not(.not-dark) #primary-menu > .container > ul > li > a, .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li > a, .overlay-menu #primary-menu.dark > ul > li > a, .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > #overlay-menu-close, .overlay-menu #primary-menu.dark > #overlay-menu-close, .dark #header-wrap:not(.not-dark) #top-search a, .dark #header-wrap:not(.not-dark) #top-cart a, .dark #header-wrap:not(.not-dark) #side-panel-trigger a, .dark #header-wrap:not(.not-dark) #top-account a, .dark #top-cart .top-cart-item-desc a, body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a, .dark #header-wrap:not(.not-dark) #top-search a:hover, .dark #header-wrap:not(.not-dark) #top-cart a:hover, .dark #header-wrap:not(.not-dark) #side-panel-trigger a:hover, .dark #header-wrap:not(.not-dark) #top-account a:hover, .dark #header-wrap:not(.not-dark) #top-search form input {
+    color: #444;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1)!important;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991px), not all, not all, not all, only screen and (max-width: 991px) and (min-resolution: 192dpi), only screen and (max-width: 991px) and (min-resolution: 2dppx)
+{#logo a.standard-logo {
+    display: block;
+}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)
+{#logo a.standard-logo, #header.split-menu #logo a.standard-logo {
+    display: block;
+}
+}
+
+
