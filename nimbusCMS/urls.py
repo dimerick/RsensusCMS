@@ -19,7 +19,7 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     url(r'^admin/', include(admin.site.urls)),  # NOQA
-    url(r'^geoslab/', include('geoslab.urls', namespace='geoslab')),
+    url(r'^app/', include('app.urls', namespace='app')),
     url(r'^', include('djangocms_forms.urls')),
     url(r'^', include('cms.urls')),
     url(r'^filer/', include('filer.urls')),

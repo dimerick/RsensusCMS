@@ -85,7 +85,7 @@ var opt = {
 // var DJANGO_STATIC_URL = '{{ STATIC_URL }}';
     function getProjects(){
         $.ajax({
-          url:   '/geoslab/projects',
+          url:   '/app/projects',
           type:  'get',
           beforeSend: function () {
               console.log("Procesando, espere por favor...");
