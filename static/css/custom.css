@@ -102,4 +102,11 @@ padding: 150px 0; background-color: rgb(23, 49, 113);
 }
 }
 
+.slider-caption p{
+  background-color: #0303034d;
+padding: 20px;
+font-weight: 500;
+display: block!important;
+}
+
 
