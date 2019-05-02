@@ -109,4 +109,6 @@ font-weight: 500;
 display: block!important;
 }
 
-
+#header.transparent-header.full-header #logo {
+    border-right-color: rgba(0,0,0,0.0);
+}
